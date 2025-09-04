@@ -13,7 +13,7 @@
     "batchSize": 500,
     "corpToken": "DG1801",
     "port": null,
-    "swimlane": "44",
+    "swimlane": 44,
     "fields": [
       "id",
       "title",
@@ -36,11 +36,6 @@
     "showCategory": true,
     "keywordSearchFields": ["publicDescription", "title"]
   },
-  "additionalJobCriteria": {
-    "field": "FILTER FIELD HERE",
-    "values": ["FILTER VALUE HERE"],
-    "sort": "-dateLastPublished"
-  },
   "integrations": {
     "googleAnalytics": { "trackingId": "" },
     "googleSiteVerification": { "verificationCode": "" }
@@ -56,4 +51,5 @@
     "privacyPolicyUrl": "/privacy"
   }
 }
+
 
